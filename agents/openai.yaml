@@ -1,0 +1,13 @@
+interface:
+  display_name: Australia GS Writer
+  short_description: Drafts concise, tailored Australian GS responses
+  default_prompt: Use $australia-gs-writer to draft my four Australian GS responses.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
